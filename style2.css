@@ -1,0 +1,336 @@
+.main {
+  background-image: url(./assets/tehno.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.top-left {
+  position: absolute;
+  /* background-color: lime; */
+  background-image: url(./assets/smoke.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  left: 50px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+.smoke {
+  position: absolute;
+  /* background-color: lime; */
+  background-image: url(./assets/nervno.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  left: 50px;
+  top: 145px;
+  transform: rotate(140deg);
+}
+
+.top-right {
+  position: absolute;
+  /* background-color: yellow; */
+  background-image: url(./assets/portal.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  top: 40px;
+  right: 50px;
+  transform: rotate(45deg);
+}
+
+.leo {
+  position: absolute;
+  /* background-color: yellow; */
+  background-image: url(./assets/leo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  top: 113px;
+  right: 50px;
+  transform: rotate(-135deg);
+}
+
+.bottom-right {
+  position: absolute;
+  /* background-color: indigo; */
+  background-image: url(./assets/weed.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 450px;
+  bottom: 0;
+  right: -30px;
+}
+
+.shine {
+  position: absolute;
+  /* background-color: indigo; */
+  background-image: url(./assets/shine.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  bottom: 39px;
+  right: -60px;
+  transform: rotate(-25deg);
+}
+
+.kit-right {
+  position: absolute;
+  /* background-color: indigo; */
+  background-image: url(./assets/bread.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  bottom: 19%;
+  right: 18%;
+  transform: rotate(-30deg);
+}
+
+.bottom-left {
+  position: absolute;
+  /* background-color: palevioletred; */
+  background-image: url(./assets/gayporn.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 560px;
+  bottom: 0;
+  left: -20px;
+}
+
+.kit {
+  position: absolute;
+  /* background-color: palevioletred; */
+  background-image: url(./assets/kotek.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 290px;
+  bottom: 11%;
+  left: 26%;
+}
+
+.nervno {
+  position: absolute;
+  /* background-color: palevioletred; */
+  background-image: url(./assets/sad.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 200px;
+  bottom: 310px;
+  left: 130px;
+}
+
+.up-left {
+  position: absolute;
+  /* background-color: rgb(36, 5, 123); */
+  background-image: url(./assets/hart.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 230px;
+  bottom: 50px;
+  left: 210px;
+  transform: rotate(35deg);
+}
+
+.left {
+  position: absolute;
+  /* background-color: rgb(36, 5, 123); */
+  background-image: url(./assets/hurt.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  bottom: 30px;
+  left: 10px;
+  transform: rotate(-17deg);
+}
+
+.bottom-center {
+  position: absolute;
+  background-image: url(./assets/water.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 14, 2); */
+  width: 56%;
+  bottom: -21%;
+  height: 600px;
+  left: 25%;
+}
+
+.crazy {
+  position: absolute;
+  background-image: url(./assets/diamon.gif);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 14, 2); */
+  width: 100px;
+  height: 100px;
+  bottom: 484px;
+  left: 50%;
+
+}
+
+.right-center {
+  position: absolute;
+  background-image: url(./assets/right.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(2, 81, 172); */
+  width: 300px;
+  height: 450px;
+  bottom: calc(50% - 200px);
+  right: calc(15%);
+
+}
+
+
+.left-center {
+  position: absolute;
+  background-image: url(./assets/left.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(242, 53, 226); */
+  width: 300px;
+  height: 450px;
+  bottom: 26%;
+  left: 25%;
+}
+
+.who {
+  position: absolute;
+  background-image: url(./assets/who.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(2, 81, 172); */
+  width: 200px;
+  height: 645px;
+  bottom: -22%;
+  right: 29%;
+  animation-duration: 1.5s;
+  animation-delay: 9s;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.him {
+  position: absolute;
+  background-image: url(./assets/him.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(242, 53, 226); */
+  width: 250px;
+  height: 400px;
+  bottom: 8%;
+  left: 31%;
+  animation-duration: 1.3s;
+  animation-delay: 9s;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
+.fox {
+  position: absolute;
+  /* background-color: indigo; */
+  background-image: url(./assets/uporotij_lis.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 150px;
+  bottom: 13px;
+  right: 300px;
+}
+
+.party {
+  position: absolute;
+  background-image: url(./assets/party.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 14, 2); */
+  width: 1000px;
+  height: 700px;
+  bottom: -135px;
+  left: calc(40% - 330px);
+  transform: rotate(-3deg);
+}
+
+.golub {
+  position: absolute;
+  background-image: url(./assets/gol.gif);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 14, 2); */
+  width: 150px;
+  height: 150px;
+  bottom: 156px;
+  left: 21%;
+  transform: rotate(-3deg);
+}
+
+.log {
+  position: absolute;
+  background-image: url(./assets/log.gif);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 14, 2); */
+  width: 150px;
+  height: 150px;
+  bottom: 150px;
+  right: 12%;
+  transform: rotate(-3deg);
+}
+
+.bird {
+  position: absolute;
+  background-image: url(./assets/golub.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 14, 2); */
+  width: 100px;
+  height: 80px;
+  bottom: 255px;
+  right: -20px;
+}
+
+.ann {
+  position: absolute;
+  background-image: url(./assets/ann.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(172, 14, 2); */
+  width: 80px;
+  height: 80px;
+  bottom: 84%;
+  right: 32%;
+}
+
+@keyframes changewidth {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(2, 0.5);
+  }
+}
+
+
+
+

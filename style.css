@@ -1,0 +1,120 @@
+h1 {
+	color: red;
+	font-family: 'Times New Roman', Times, serif;
+	width: 100%;
+	font-size: 70px;
+	background: greenyellow;
+}
+
+body {
+  background-color: indigo;
+  width: 100vw;
+  height: 100vh;
+}
+
+p1 {
+	font-size: 50px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+div {
+	display: flex;
+}
+
+.test-me-bicth {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+	border-radius: 1000px;
+	width: 500px;
+	height: 500px;
+
+	background-image: url(./assets/button.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 700px 500px;
+
+	font-size: 80px;
+	color: #4de90a;
+}
+
+.arrow {
+	width: 50%; 
+	height: 50%;
+	
+}
+
+.arrow1 {
+	width: 50%; 
+	height: 50%;
+	transform: scale(-1, 1);
+}
+
+.container {
+	flex-direction: row;
+	width: 100%;
+}
+
+.column-left {
+	flex: 1;
+	width: 20%;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.column-center {
+	flex: 2;
+	width: 60%;
+}
+
+.column-right {
+	flex: 1;
+	width: 20%;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.saddog {
+	position: absolute;
+	background-image: url(./assets/saddog.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	/* background-color: rgb(172, 14, 2); */
+	width: 90px;
+	height: 150px;
+	bottom: 80px;
+	left: calc(60% - 100px);
+  
+  }
+
+  .wow {
+	position: absolute;
+	background-image: url(./assets/wow.gif);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	/* background-color: rgb(172, 14, 2); */
+	width: 200px;
+	height: 200px;
+	bottom: 90px;
+	left: calc(50% - 160px);
+  
+  }
+
+  .wowow {
+	position: absolute;
+	background-image: url(./assets/wow.gif);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	/* background-color: rgb(172, 14, 2); */
+	width: 200px;
+	height: 200px;
+	bottom: 330px;
+	left: calc(60% - 130px);
+  
+  }
+
+
